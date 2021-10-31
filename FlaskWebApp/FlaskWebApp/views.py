@@ -4,7 +4,7 @@ Routes and views for the flask application.
 import numpy as np
 from flask import request, jsonify, render_template
 import pickle
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('FlaskWebApp\model.pkl', 'rb'))
 
 from datetime import datetime
 from flask import render_template

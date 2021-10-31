@@ -7,7 +7,7 @@
     <ProjectGuid>49fac64f-e725-42cc-99e1-a0ea99acf3bc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>runserver.py</StartupFile>
+    <StartupFile>FlaskWebApp\runserver.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="runserver.py" />
+    <Compile Include="FlaskWebApp\runserver.py" />
     <Compile Include="FlaskWebApp\__init__.py" />
     <Compile Include="FlaskWebApp\views.py" />
   </ItemGroup>
@@ -40,8 +40,9 @@
     <Folder Include="FlaskWebApp\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="model.pkl" />
-    <Content Include="requirements.txt" />
+    <Content Include="FlaskWebApp\model.pkl" />
+    <Content Include="FlaskWebApp\requirements.txt" />
+    <Content Include="FlaskWebApp\runtime.txt" />
     <Content Include="FlaskWebApp\static\content\bootstrap.css" />
     <Content Include="FlaskWebApp\static\content\bootstrap.min.css" />
     <Content Include="FlaskWebApp\static\content\site.css" />
