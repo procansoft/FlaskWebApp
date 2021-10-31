@@ -41,9 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FlaskWebApp\model.pkl" />
-    <Content Include="FlaskWebApp\Procfile" />
-    <Content Include="FlaskWebApp\requirements.txt" />
-    <Content Include="FlaskWebApp\runtime.txt" />
+    <Content Include="Procfile" />
+    <Content Include="requirements.txt" />
+    <Content Include="runtime.txt" />
     <Content Include="FlaskWebApp\static\content\bootstrap.css" />
     <Content Include="FlaskWebApp\static\content\bootstrap.min.css" />
     <Content Include="FlaskWebApp\static\content\site.css" />
